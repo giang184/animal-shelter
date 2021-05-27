@@ -2,6 +2,7 @@ h1{
   font-style: italic;
   font-family: fantasy;
   text-align: center;
+  color: navy;
 }
 
 h2{
@@ -9,6 +10,7 @@ h2{
   font-family: fantasy;
   text-align: center;
   font-size: 30px;
+  color: darkslateblue; 
 }
 
 p{
@@ -16,7 +18,7 @@ p{
   font-family: helvetica;
   color: indigo;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 img {
@@ -28,8 +30,13 @@ img {
 
 .box {
   border: 2px solid black;
-  padding: 5 px;
+  padding: 10px;
   background-color: darkcyan;
-  width: 80%;
+  width: 100%;
   box-sizing: border-box;
+}
+
+.float {
+  width: 20%;
+  float: left;
 }
